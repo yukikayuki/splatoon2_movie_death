@@ -9,4 +9,5 @@ services:
       - JUPYTER_ENABLE_LAB=yes
     volumes:
       - .:/home/jovyan
+      - /Volumes/IO-DATA/obs:/home/jovyan/src_movie
     command: start-notebook.sh --NotebookApp.token=''
