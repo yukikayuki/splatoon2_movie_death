@@ -4,3 +4,10 @@
 初めから学習済みモデルが入っているので、すぐにやられたシーン切り出しをお試し頂けます。
 
 [Qiita記事](https://qiita.com/tfandkusu/items/acbc0906046bb7b2b1db)
+
+
+# docker
+```bash
+docker-compose up -d
+open http://localhost:8888
+```

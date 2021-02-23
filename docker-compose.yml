@@ -1,0 +1,12 @@
+# https://qiita.com/hgaiji/items/edf71435d0565257f980
+version: "3"
+services:
+  notebook:
+    image: jupyter/datascience-notebook:latest
+    ports:
+      - "8888:8888"
+    environment: 
+      - JUPYTER_ENABLE_LAB=yes
+    volumes:
+      - .:/home/jovyan
+    command: start-notebook.sh --NotebookApp.token=''
